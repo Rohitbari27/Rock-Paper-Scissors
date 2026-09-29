@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f6fa;
+}
+
+.header {
+    text-align: center;
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+
+
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: #081b31;
+}
+
+#playerScore,
+#computerScore {
+    font-size: 4rem;
+}
+
+
+.msg-box {
+ 
+    margin-top: 5rem;
+    text-align: center;
+   
+}
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
